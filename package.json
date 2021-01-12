@@ -1,7 +1,7 @@
 {
-  "name": "useform-jp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "useform-jps",
+  "version": "1.0.1",
+  "description": "Custom Hook para manipular el estado y almacenar los valores de un formulario en react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairPrada/useForm-jp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JairPrada/useForm-jp/issues"
+  },
+  "homepage": "https://github.com/JairPrada/useForm-jp#readme"
 }

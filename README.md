@@ -7,7 +7,7 @@ Custom Hook para manipular el estado y almacenar los valores de un formulario en
 Lo primero que debes hacer es instalarlo con el gestor de modulos de node npm
 
 ```shell
-$ npm install useform-jp
+$ npm install useform-jps
 ```
 
 Como paso siguiente debemos realizar la importacion de nuestro custom Hook al componente donde deseamos utilizarlo de la siguiente manera.
