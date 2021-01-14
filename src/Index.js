@@ -10,4 +10,4 @@ const useForm = ({ initialState }) => {
     }
     return [formState, cambiarValor];
 }
-module.export = { useForm }
+module.exports = { useForm }
