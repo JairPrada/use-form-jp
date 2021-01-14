@@ -10,4 +10,4 @@ const useForm = ({ initialState }) => {
     }
     return [formState, cambiarValor];
 }
-export default Contador;
+module.export = { useForm }
