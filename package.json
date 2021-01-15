@@ -1,6 +1,6 @@
 {
   "name": "useform-jps",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Custom Hook para manipular el estado y almacenar los valores de un formulario en react",
   "main": "src/Index.js",
   "scripts": {
