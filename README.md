@@ -21,14 +21,18 @@ import { useForm } from "useform-jp";
 Para usar este Hook debemos realizar una des-estructuracion del objeto importado y definirlo en una costante , donde el primer parametro sera un objeto que almacenara los valores de nuestros campos de texto y el segundo la funcion que se encargara de actualizarlos.
 
 ```js
-const [formState, setFormState] = useState({
+const [formState, setFormState] = useForm({
   valorInput1: "",
   valorInput2: "",
 });
 ```
 
-Para actualizar los valores de nuestros campos de texto debemos invocar el metodo **setFormState** cuando se ejecute el evento onChange y definir el valor de nuestro campo de texto de la siguiente manera.
+Para actualizar los valores de nuestros campos de texto debemos invocar el metodo **setFormState** cuando se ejecute el evento onChange y definir el valor de nuestro campo de texto ademas de esto tendremos que añadir la propiedad name en nuestro input de la siguiente manera.
 
 ```html
-<input value="{formState.nombre}" onChange="{setFormState}" />
+<input
+  value="{formState.nombre}"
+  name="nombre que concida con el estado a guardar"
+  onChange="{setFormState}"
+/>
 ```
